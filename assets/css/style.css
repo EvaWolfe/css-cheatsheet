@@ -38,12 +38,19 @@ p {
 /* applies styling to h2 */
 h2 {
   color: var(--pink);
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: white;
+  margin: 10px;
+  padding: 5px;
+  position: relative;
 }
 
 /* .box-text {
   color: #e866ec;
 } */
 
+/* applies styling to footer */
 footer {
   color: var(--pink);
   text-align: center;
@@ -51,16 +58,19 @@ footer {
 }
 
 
+/* makes the heart in footer red */
 span {
   color: red;
 }
 
+/* styles class row */
 section.row {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
 }
 
+/*  */
 .pre-box {
   /* display: flex; */
   justify-content: space-evenly;
@@ -71,6 +81,7 @@ section.row {
   width: 33.3%;
 }
 
+/* styles the card class */
 .card {
   border: dashed;
   height: 100%;
