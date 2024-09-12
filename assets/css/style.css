@@ -70,11 +70,16 @@ section.row {
   flex-direction: row;
 }
 
-/*  */
+/*styles the pre code  */
 .pre-box {
-  /* display: flex; */
-  justify-content: space-evenly;
-  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5%;
+  background-image: linear-gradient(#726CF8 0%,
+      #E975A8 100%);
+
+
+
 }
 
 .column {
